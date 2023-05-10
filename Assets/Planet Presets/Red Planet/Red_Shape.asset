@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58dad4a2d310bcd46beeb4eebefa413a, type: 3}
+  m_Name: Red_Shape
+  m_EditorClassIdentifier: 
+  radius: 1000
+  noiseLayers:
+  - enabled: 1
+    useFirstLayerAsMask: 0
+    noiseSettings:
+      noiseType: 0
+      seed: 16
+      transformType: 1
+      basicParameters:
+        offset:
+          x: 0
+          y: 0
+          z: 0
+        frequency: 0.98
+        octaves: 8
+        lacunarity: 2.34
+        persistence: 0.54
+        strength: 0.05
+        lowerLimit: 1.06
+      ridgedParameters:
+        offset:
+          x: 0.31
+          y: 0
+          z: 0
+        frequency: 3.18
+        octaves: 8
+        lacunarity: 1.17
+        persistence: 0.5
+        strength: 0.14
+        lowerLimit: -0.5
+        exponent: 2
+        weight: 0.67
+      terracedParameters:
+        offset:
+          x: 0
+          y: 0
+          z: 0
+        frequency: 0
+        octaves: 0
+        lacunarity: 0
+        persistence: 0
+        strength: 0
+        lowerLimit: 0
+        levels: 0
+  - enabled: 1
+    useFirstLayerAsMask: 0
+    noiseSettings:
+      noiseType: 0
+      seed: 16
+      transformType: 1
+      basicParameters:
+        offset:
+          x: 0
+          y: 0
+          z: 0
+        frequency: 0.98
+        octaves: 8
+        lacunarity: 2.34
+        persistence: 0.54
+        strength: 0.05
+        lowerLimit: 1.06
+      ridgedParameters:
+        offset:
+          x: -1.45
+          y: 0.73
+          z: -0.19
+        frequency: 2.52
+        octaves: 8
+        lacunarity: 7.81
+        persistence: 0.541
+        strength: 0.1
+        lowerLimit: 0.07
+        exponent: 2
+        weight: 0.67
+      terracedParameters:
+        offset:
+          x: 0
+          y: 0
+          z: 0
+        frequency: 0
+        octaves: 0
+        lacunarity: 0
+        persistence: 0
+        strength: 0
+        lowerLimit: 0
+        levels: 0
